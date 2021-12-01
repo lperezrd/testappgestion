@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/solicitudes-temas",
+      "handler": "solicitudes-tema.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/solicitudes-temas/count",
+      "handler": "solicitudes-tema.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/solicitudes-temas/:id",
+      "handler": "solicitudes-tema.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/solicitudes-temas",
+      "handler": "solicitudes-tema.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/solicitudes-temas/:id",
+      "handler": "solicitudes-tema.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/solicitudes-temas/:id",
+      "handler": "solicitudes-tema.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

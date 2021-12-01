@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "temas",
+  "info": {
+    "name": "Tema",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tema": {
+      "type": "string"
+    },
+    "carrera_id": {
+      "model": "carrera"
+    },
+    "seleccionado": {
+      "type": "boolean",
+      "default": false
+    },
+    "profesor": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "linea_investigacion": {
+      "model": "linea-investigacion"
+    },
+    "problematica": {
+      "type": "text"
+    },
+    "alcance": {
+      "type": "string"
+    },
+    "estudiante": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

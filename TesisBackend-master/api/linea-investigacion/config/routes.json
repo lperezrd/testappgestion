@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/linea-investigacions",
+      "handler": "linea-investigacion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/linea-investigacions/count",
+      "handler": "linea-investigacion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/linea-investigacions/:id",
+      "handler": "linea-investigacion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/linea-investigacions",
+      "handler": "linea-investigacion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/linea-investigacions/:id",
+      "handler": "linea-investigacion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/linea-investigacions/:id",
+      "handler": "linea-investigacion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "asesors",
+  "info": {
+    "name": "Asesor",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string",
+      "maxLength": 10,
+      "minLength": 10
+    },
+    "nivelAcademico": {
+      "type": "string"
+    },
+    "correo": {
+      "type": "email"
+    },
+    "institucionLabora": {
+      "type": "string"
+    }
+  }
+}

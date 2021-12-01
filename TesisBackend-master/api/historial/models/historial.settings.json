@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "historials",
+  "info": {
+    "name": "historial",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "estatus": {
+      "model": "estatus"
+    },
+    "solicitudes_tema": {
+      "model": "solicitudes-tema"
+    },
+    "observacion": {
+      "type": "text"
+    }
+  }
+}

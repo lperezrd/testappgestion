@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "linea_investigacions",
+  "info": {
+    "name": "Linea_investigacion",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "linea": {
+      "type": "string"
+    },
+    "carrera_id": {
+      "collection": "carrera"
+    }
+  }
+}

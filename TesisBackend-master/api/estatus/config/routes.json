@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/estatuses",
+      "handler": "estatus.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/estatuses/count",
+      "handler": "estatus.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/estatuses/:id",
+      "handler": "estatus.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/estatuses",
+      "handler": "estatus.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/estatuses/:id",
+      "handler": "estatus.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/estatuses/:id",
+      "handler": "estatus.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

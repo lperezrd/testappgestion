@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carreras",
+  "info": {
+    "name": "Carrera"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "carrera": {
+      "type": "string"
+    },
+    "codigoCarrera": {
+      "type": "string"
+    }
+  }
+}

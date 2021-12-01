@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "solicitudes_temas",
+  "info": {
+    "name": "Solicitudes_tema",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "usuario_id": {
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
+    "tema_id": {
+      "model": "tema"
+    },
+    "carrera_id": {
+      "collection": "carrera",
+      "model": "carrera"
+    },
+    "asesor_id": {
+      "collection": "asesor",
+      "model": "asesor"
+    },
+    "linea_investigacion": {
+      "model": "linea-investigacion"
+    },
+    "datosProyecto": {
+      "type": "text"
+    },
+    "estatus_id": {
+      "model": "estatus"
+    },
+    "status": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

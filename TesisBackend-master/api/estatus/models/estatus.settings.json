@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "estatuses",
+  "info": {
+    "name": "estatus",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    }
+  }
+}
